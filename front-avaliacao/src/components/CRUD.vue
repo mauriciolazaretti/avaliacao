@@ -379,8 +379,16 @@
         this.enderecoObj = Object.assign({}, this.defaultEnderecoObj);
       },
       save () {
-        if(this.editedItem.enderecos.length == 0 || this.editedItem.telefones.length == 0){
-          alert("você deve cadastrar pelo menos 1 endereço e 1 telefone");
+        let msg = '';
+        if(this.editedItem.cpfCnpj == '')
+          msg += "Preencha o cpf/cnpj.\n";
+        if(this.editedItem.nomeRazaoSocial == '')
+          msg += "Preencha o nome/razão social.\n";
+
+        if(this.editedItem.enderecos.length == 0 || this.editedItem.telefones.length == 0)
+          msg += "você deve cadastrar pelo menos 1 endereço e 1 telefone\n";
+        if(msg != ''){
+          alert(msg);
           return;
         }
         this.$axios.post("https://localhost:44359/pessoa", this.editedItem,{ headers: { "Content-Type": "application/json" }}).then((o) => {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mauricio\\source\\repos\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj": {}
+    "C:\\Users\\Mauricio\\avaliacao\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mauricio\\source\\repos\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj": {
+    "C:\\Users\\Mauricio\\avaliacao\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mauricio\\source\\repos\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj",
+        "projectUniqueName": "C:\\Users\\Mauricio\\avaliacao\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj",
         "projectName": "AvaliacaoBack",
-        "projectPath": "C:\\Users\\Mauricio\\source\\repos\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj",
+        "projectPath": "C:\\Users\\Mauricio\\avaliacao\\AvaliacaoBack\\AvaliacaoBack\\AvaliacaoBack.csproj",
         "packagesPath": "C:\\Users\\Mauricio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mauricio\\source\\repos\\AvaliacaoBack\\AvaliacaoBack\\obj\\",
+        "outputPath": "C:\\Users\\Mauricio\\avaliacao\\AvaliacaoBack\\AvaliacaoBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -26,6 +26,10 @@ namespace AvaliacaoBack.Controllers
             {
                 if (pessoaVO == null)
                     return Ok(new { sucesso = false, msg = "Faltam campos a preencher" });
+                if (string.IsNullOrEmpty(pessoaVO.cpfCnpj))
+                    return Ok(new { sucesso = false, msg = "Falta preencher cpf" });
+                if(string.IsNullOrEmpty(pessoaVO.nomeRazaoSocial))
+                    return Ok(new { sucesso = false, msg = "Falta preencher nome" });
                 if (pessoaVO.enderecos.Count == 0)
                     return Ok(new { sucesso = false, msg = "Você deve cadastrar pelo menos 1 endereço!" });
                 if (pessoaVO.telefones.Count == 0)
